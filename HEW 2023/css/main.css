@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body,h1,h2,h3,h4,p,ul,ol{
+    margin: 0;
+    padding: 0;}
+  
+  ul,li {list-style: none;}
+  
+  a{text-decoration: none;}
+  a { color: inherit; } 
+.header {
+    width: 100%;
+    display: flex;
+    background-color: #ffc1c2;
+    align-items: center;
+    padding: 2px;
+    justify-content: space-between
+}
+.bigbox {
+    display: flex;
+}
+
+.smallbox a{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100px;
+    height: 40px;
+    /* border: black;
+    border-style: solid; */
+    margin: 20px;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 100px;
+}
+.smallbox a {font-family: 'Noto Sans JP', sans-serif;font-weight: 600;font-size: 15px;}
+.smallbox a:hover {
+    align-items: center;
+    text-align: center;
+    /* margin: 0 auto; */
+    /* box-shadow: inset 150px 0 0 0 #ffc1c2; */
+    color: white;
+    /* width: 100px;
+    height: 40px; */
+    border-radius: 350px;
+    transition: all 0.3s ease-out;color: #ffffff;
+    background-color: #2aa7ba;
+  }
+/* .smallbox a{list-style: none;text-decoration: none;transition: all 1s ease-out;color: rgb(19, 5, 5);font-weight: 200;} */
